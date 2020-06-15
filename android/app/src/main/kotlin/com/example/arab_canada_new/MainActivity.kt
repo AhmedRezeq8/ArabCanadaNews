@@ -1,4 +1,4 @@
-package com.example.arab_canada_new
+package co.atyaf.arabcanada
 
 import io.flutter.embedding.android.FlutterActivity
 

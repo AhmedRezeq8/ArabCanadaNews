@@ -97,10 +97,10 @@ class _DetailViewState extends State<DetailView> {
                                 InkWell(
                                   onTap: () {
                                     Share.share(
-                                        'https://arabcanadanews.ca/api/v1/post/' +
-                                            widget.id.toString() +
+                                        content['data']['title'] +
                                             ' - ' +
-                                            content['data']['title'],
+                                            'https://www.arabcanadanews.ca/details/' +
+                                            widget.id.toString(),
                                         subject: content['data']['title']);
                                     HapticFeedback.mediumImpact();
                                   },
