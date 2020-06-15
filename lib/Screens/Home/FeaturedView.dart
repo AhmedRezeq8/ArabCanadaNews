@@ -81,7 +81,7 @@ class _FeaturedViewState extends State<FeaturedView> {
                                 content['data']['featured'][0]['title'],
                                 style: TextStyle(
                                     fontFamily: "sst-arabic-bold",
-                                    fontSize: 15,
+                                    fontSize: 16,
                                     height: 1.3),
                                 textAlign: TextAlign.right,
                                 maxLines: 2,
