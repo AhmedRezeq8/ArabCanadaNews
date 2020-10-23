@@ -289,13 +289,13 @@ class _DetailViewState extends State<DetailView> {
     );
   }
 
-  _openAds(String url) async {
-    if (await canLaunch(url)) {
-      await launch(url);
-    } else {
-      throw 'Could not launch $url';
-    }
-  }
+  // _openAds(String url) async {
+  //   if (await canLaunch(url)) {
+  //     await launch(url);
+  //   } else {
+  //     throw 'Could not launch $url';
+  //   }
+  // }
 }
 
 class Footer extends StatelessWidget {
@@ -311,7 +311,7 @@ class Footer extends StatelessWidget {
           child: Padding(
             padding: const EdgeInsets.symmetric(vertical: 20),
             child: Text(
-              "جميع الحقوق محفوظة لـ المهضة نيوز ©2020",
+              "جميع الحقوق محفوظة لـ عرب كندا نيوز ©2020",
               style: TextStyle(
                   fontFamily: "sst-arabic-bold",
                   fontSize: 10,

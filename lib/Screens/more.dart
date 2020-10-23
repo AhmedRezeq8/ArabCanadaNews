@@ -13,7 +13,7 @@ import 'contactUs/contactUsView.dart';
 
 import 'package:flutter_svg/flutter_svg.dart';
 
-import 'video/videoView.dart';
+// import 'video/videoView.dart';
 
 class More extends StatefulWidget {
   More({Key key}) : super(key: key);
@@ -145,39 +145,39 @@ class _MoreState extends State<More> {
               ),
             ),
             catsBuilder(),
-            Container(
-              child: InkWell(
-                onTap: () {
-                  Navigator.push(
-                      context,
-                      PageTransition(
-                          type: PageTransitionType.downToUp,
-                          child: VideoView()));
-                  HapticFeedback.mediumImpact();
-                },
-                child: Padding(
-                  padding: const EdgeInsets.fromLTRB(10, 10, 20, 0),
-                  child: Column(
-                    children: <Widget>[
-                      Row(
-                        crossAxisAlignment: CrossAxisAlignment.center,
-                        children: <Widget>[
-                          Icon(SFSymbols.camera, size: 20),
-                          SizedBox(
-                            width: 10,
-                          ),
-                          Text(
-                            "فيديو",
-                            style: TextStyle(fontSize: 18),
-                          )
-                        ],
-                      ),
-                      Divider()
-                    ],
-                  ),
-                ),
-              ),
-            ),
+            // Container(
+            //   child: InkWell(
+            //     onTap: () {
+            //       Navigator.push(
+            //           context,
+            //           PageTransition(
+            //               type: PageTransitionType.downToUp,
+            //               child: VideoView()));
+            //       HapticFeedback.mediumImpact();
+            //     },
+            //     child: Padding(
+            //       padding: const EdgeInsets.fromLTRB(10, 10, 20, 0),
+            //       child: Column(
+            //         children: <Widget>[
+            //           Row(
+            //             crossAxisAlignment: CrossAxisAlignment.center,
+            //             children: <Widget>[
+            //               Icon(SFSymbols.camera, size: 20),
+            //               SizedBox(
+            //                 width: 10,
+            //               ),
+            //               Text(
+            //                 "فيديو",
+            //                 style: TextStyle(fontSize: 18),
+            //               )
+            //             ],
+            //           ),
+            //           Divider()
+            //         ],
+            //       ),
+            //     ),
+            //   ),
+            // ),
             Container(
               child: InkWell(
                 onTap: () {

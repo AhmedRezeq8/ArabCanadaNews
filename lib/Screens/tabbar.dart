@@ -4,14 +4,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_sfsymbols/flutter_sfsymbols.dart';
 
 import 'Home/Home.dart';
-import 'alray/AlrayView.dart';
 import 'breaknews/breaknews.dart';
-import 'categories/CategorieView1.dart';
-import 'categories/CategorieView2.dart';
 import 'more.dart';
 
 import '../Tools/globals.dart' as g;
-import 'video/videoView.dart';
 
 class MyTabBar extends StatefulWidget {
   MyTabBar({Key key}) : super(key: key);

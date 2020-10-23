@@ -2,7 +2,6 @@ import 'package:bot_toast/bot_toast.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
-import 'Screens/SplashScreen.dart';
 import 'Screens/tabbar.dart';
 import 'Tools/globals.dart' as g;
 
@@ -19,6 +18,7 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   void initState() {
+    // ignore: todo
     // TODO: implement initState
     super.initState();
   }

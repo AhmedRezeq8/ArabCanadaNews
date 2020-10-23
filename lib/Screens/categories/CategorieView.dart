@@ -84,14 +84,14 @@ class _CategorieViewState extends State<CategorieView> {
             if (item['post_type'] == 'ads') {
               print('this is ads');
               data.add(Posts(
-                post_type: item['post_type'],
+                postType: item['post_type'],
                 adsimage: 'https://arabcanadanews.ca/' + item['image'],
                 link: item['link'],
               ));
             } else {
               print('this is post');
               data.add(Posts(
-                post_type: item['post_type'],
+                postType: item['post_type'],
                 imageUrl: 'https://arabcanadanews.ca/' + item['image'],
                 id: item['id'],
                 time: item['time'],
@@ -147,7 +147,7 @@ class Posts {
   String time;
   int id;
   //ads
-  String post_type;
+  String postType;
   String link;
   String adsimage;
 
@@ -156,7 +156,7 @@ class Posts {
       this.imageUrl,
       this.title,
       this.time,
-      this.post_type,
+      this.postType,
       this.link,
       this.adsimage});
 }

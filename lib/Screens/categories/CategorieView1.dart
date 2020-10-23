@@ -205,6 +205,7 @@ class _PostsListBuilderState extends State<PostsListBuilder> {
         child: ListView.builder(
           controller: widget._scrollController,
           itemCount: widget.data.length + 1,
+          // ignore: missing_return
           itemBuilder: (BuildContext context, int index) {
             if (index == 0 && widget.data.length > 0) {
               return Padding(

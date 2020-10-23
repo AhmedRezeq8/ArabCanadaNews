@@ -323,7 +323,7 @@ class Footer extends StatelessWidget {
           child: Padding(
             padding: const EdgeInsets.symmetric(vertical: 20),
             child: Text(
-              "جميع الحقوق محفوظة لـ الرؤية نيوز ©2020",
+              "جميع الحقوق محفوظة لـ عرب كندا نيوز ©2020",
               style: TextStyle(
                   fontFamily: "sst-arabic-bold",
                   fontSize: 10,

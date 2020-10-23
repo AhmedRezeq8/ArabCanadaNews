@@ -76,12 +76,9 @@ class Widget1News extends StatefulWidget {
 }
 
 class _Widget1NewsState extends State<Widget1News> {
-  ApiService _apiService;
-
   @override
   void initState() {
     super.initState();
-    _apiService = ApiService();
   }
 
   @override

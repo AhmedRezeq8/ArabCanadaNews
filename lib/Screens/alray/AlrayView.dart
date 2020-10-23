@@ -9,7 +9,6 @@ import 'dart:async';
 
 import 'package:page_transition/page_transition.dart';
 
-import 'alraydetail.dart';
 import '../../Tools/globals.dart' as g;
 
 class AlrayView extends StatefulWidget {

@@ -22,6 +22,7 @@ class Home extends StatefulWidget {
   })  : _scrollController = scrollController,
         super(key: key);
 
+  // ignore: unused_field
   final ScrollController _scrollController;
   final List<Posts> data;
   final bool isLoading;
